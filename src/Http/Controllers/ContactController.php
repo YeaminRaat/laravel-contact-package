@@ -21,9 +21,8 @@ class ContactController extends Controller
 
     public function submit(Request $request)
     {
-//        return config('contact.send_mail_to');
         $data = Contact::create($request->only(['name','email','message']));
         Mail::to(config('contact.send_mail_to'))->send(new ContactMail($data));
-        return Contact::all();
+        return back();
     }
 }
