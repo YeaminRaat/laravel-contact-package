@@ -8,6 +8,13 @@
             "Yeamin\\Contact\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yeamin\\Contact\\ContactServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Yeamin Hossain",
