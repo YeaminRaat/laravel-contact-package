@@ -1,5 +1,5 @@
 {
-    "name": "yeaminraat/contact",
+    "name": "yeaminraat/simple-laravel-contact",
     "description": "Simple Laravel package to send user query to admin email and save to database.",
     "type": "library",
     "license": "MIT",
